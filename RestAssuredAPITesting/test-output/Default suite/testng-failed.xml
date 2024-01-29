@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Session14.AddHeaderRequestDemo">
+      <class name="Session15.ResponseSpecificationDemo">
         <methods>
-          <include name="testMethod1"/>
+          <include name="getAllBookingIds"/>
+          <include name="createResponseSpec"/>
+          <include name="getBookingByFirstName"/>
         </methods>
-      </class> <!-- Session14.AddHeaderRequestDemo -->
+      </class> <!-- Session15.ResponseSpecificationDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
